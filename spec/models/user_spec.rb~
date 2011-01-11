@@ -109,7 +109,7 @@ describe User do
       it "should be false if the passwords don't match" do
         @user.has_password?("invalid").should be_false
       end
-     end
+    end
   end
     
 end
